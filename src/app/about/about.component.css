@@ -1,0 +1,55 @@
+
+.design::after
+{
+    width: 75px;
+    height: 3px;
+    background-color:white;
+    content: "";
+    position: absolute;
+    left: 35px;
+    top: 10px;
+}
+.design::before
+{
+    width: 75px;
+    height: 3px;
+    background-color:white;
+    content: "";
+    position: absolute;
+    right:20px;
+    top: 10px;
+}
+@media screen and (min-width: 0px) and (max-width:576px) 
+{
+    .container-fluid
+    {
+        padding: 70px !important;
+        width: 100% !important;
+    }
+    .container
+    {
+        width: 100% !important;
+    }
+  .d-flex
+  {
+    flex-direction: column;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 576px) and (max-width:770px) 
+{
+    .container-fluid
+    {
+        padding: 70px !important;
+        width: 100% !important;
+    }
+    .container
+    {
+        width: 100% !important;
+    }
+  .d-flex
+  {
+    flex-direction: column;
+    width: 100%;
+  } 
+}

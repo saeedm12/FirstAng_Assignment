@@ -1,0 +1,39 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+h1
+{
+    color: rgb(44,62,80);
+}
+i
+{
+color: rgb(44,62,80);
+}
+.design::after
+{
+    width: 75px;
+    height: 3px;
+    background-color:rgb(44,62,80);
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 7px;
+}
+.design::before
+{
+    width: 75px;
+    height: 3px;
+    background-color:rgb(44,62,80);
+    content: "";
+    position: absolute;
+    right:20px;
+    top: 7px;
+}
+input
+{
+    margin: 10px 0px;
+    width: 50%;
+}

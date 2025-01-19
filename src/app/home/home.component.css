@@ -1,0 +1,21 @@
+
+.design::after
+{
+    width: 75px;
+    height: 3px;
+    background-color:white;
+    content: "";
+    position: absolute;
+    left: 20px;
+    top: 7px;
+}
+.design::before
+{
+    width: 75px;
+    height: 3px;
+    background-color:white;
+    content: "";
+    position: absolute;
+    right:20px;
+    top: 7px;
+}

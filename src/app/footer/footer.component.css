@@ -1,0 +1,32 @@
+i{
+ padding: 10px;
+ border: 1px solid white;
+ border-radius: 50%;
+ margin: 0px 5px;
+}
+.max-width
+{
+    max-width: 350px;
+}
+@media screen and (min-width: 0px) and (max-width:576px) 
+{
+.container
+{
+    flex-direction: column;
+
+}
+.container div
+{
+    width: 100% !important;
+    margin: 20px 0px;
+    text-align: center;
+}
+.max-width
+{
+    max-width:100%;
+}
+}
+@media screen and (min-width: 576px) and (max-width:770px) 
+{
+
+}
